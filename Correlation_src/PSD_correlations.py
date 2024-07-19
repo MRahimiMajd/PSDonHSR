@@ -47,7 +47,7 @@ def correlation_CAM_Maize(species_name, r_method = 'Pearson' ,with_inversion=Tru
     inversion_traits=['CHL_inv', 'CAR_inv', 'EWT_inv', 'LMA_inv', 'ANT_inv','N_inv']
     #######################################
     if with_inversion:
-        inversion_file_name=f'{species_name}_inversion_param.csv'
+        inversion_file_name=f'{species_name}_inversion.csv' # Must be specified according to the filename of the HSR inversion parameters.
         res_inversion=pd.read_csv(os.path.join(script_dir,inversion_file_name))
         res_inversion=res_inversion[['ID','N','CHL','CAR','EWT','LMA','ANT']]
         res_inversion.columns=['ID',r'N_inv',r'CHL_inv',r'CAR_inv',r'EWT_inv',r'LMA_inv','ANT_inv']
