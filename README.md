@@ -1,7 +1,7 @@
 # PSDonHSR
 This file contains the instructions for using the shared Python functions to reproduce the results presented in the Rahimi-Majd et al. paper.
 
-The Cambridge Maize 2021 (CAM Maize 2021) and Maize 2021 (CAM Maize 2022) are available in the dataset directory. 
+The Cambridge Maize 2021 (CAM Maize 2021) and Maize 2021 (CAM Maize 2022) are available in the file 'CAM_Maize_dataset.tar.xz'. 
 
 All the functions to calculate power spectral density (PSD) statists of a given (leaf) hyperspectral reflectance (HSR) sequence or a CSV file containing multiple HSR rows are represented in the 'PSD.py' file in the PSD_src directory. The full instructions for all the functions are written inside each function. 
 
