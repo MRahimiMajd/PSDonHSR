@@ -1,4 +1,4 @@
-# HSR2PSD
+# PSDonHSR
 This file contains the instructions for using the shared Python functions to reproduce the results presented in the Rahimi-Majd et al. paper.
 
 The Cambridge Maize 2021 (CAM Maize 2021) and Maize 2021 (CAM Maize 2022) are available in the dataset directory. 
