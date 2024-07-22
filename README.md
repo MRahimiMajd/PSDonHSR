@@ -9,9 +9,9 @@ The functions for post-processing (correlation measurements) of CAM Maize 2021 a
 
 
 The required Python libraries and the tested version of them are as follows:
-numpy V1.26.4
-ccipy V1.13.0
-pandas V2.1.4
-sklearn V1.2.2
+numpy V1.26.4,
+scipy V1.13.0, 
+pandas V2.1.4, and
+sklearn V1.2.2.
 
 
